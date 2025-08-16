@@ -7,3 +7,79 @@ body{
     color:#CAE0E4;
 }
 
+.logo img{
+    width: 200px;
+    height: auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.welcome p{
+    font-size: 180px;
+    margin: 0px;
+}
+.welcome{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 50px 0px 50px;
+    text-align: center;
+    line-height: 130px;
+    opacity: 0.8;
+}
+.social img{
+    width: 40px;
+    height: auto;
+}
+.info-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 500px;
+    padding-top: 30px;
+}
+
+.info-ai{
+    font-size: 40px;
+    width: 250px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.info-dev{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.social-name a{
+    margin: 0px;
+    text-decoration: none;
+    color: #CAE0E4;
+    font-size: 40px;
+}
+.info-dev p{
+    font-size: 40px;
+    margin: 0px;
+}

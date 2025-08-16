@@ -8,7 +8,7 @@ body{
 }
 
 .logo img{
-    width: 200px;
+    width: 14.65vw;
     height: auto;
 }
 
@@ -20,7 +20,7 @@ body{
 }
 
 .welcome p{
-    font-size: 180px;
+    font-size: 9.8vw;
     margin: 0px;
 }
 .welcome{
@@ -29,70 +29,46 @@ body{
     flex-wrap: wrap;
     padding: 20px 50px 0px 50px;
     text-align: center;
-    line-height: 130px;
+    line-height: 7vw;
     opacity: 0.8;
 }
 .social img{
-    width: 35px;
+    width: 3.34vw;
     height: auto;
     border-radius: 50%;
 }
 .info-content{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 500px;
+    justify-content: end;
+    gap: 35.04vw;
     padding-top: 30px;
 }
 
 .info-ai{
-    font-size: 25px;
-    width: 250px;
+    font-size: 20px;
+    width: 18.23vw;
     height: auto;
     text-align: center;
     font-family: "Montserrat";
     font-weight: 600;
-}
-
-.info-dev{
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    
+    justify-content: center;
 }
 
 .social{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-.social-name{
-    display: flex;
-    flex-direction: column;
+    justify-content: end;
     gap: 20px;
+    margin-right: 20px;
 }
-.flex{
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-.social-name a{
-    margin: 0px;
-    text-decoration: none;
-    color: #CAE0E4;
-}
-.info-dev p,a{
-    font-size: 25px;
-    margin: 0px;
-    font-family: "Montserrat";
-    font-weight: 600;
-}
+
 .input{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
     gap: 20px;
-    
     height: auto;
     width: auto;
 }
@@ -105,6 +81,7 @@ input{
     width: 600px;
     padding: 15px 30px 15px 30px;
     border: 2px solid #437E87;
+    background-color: #2B3A3D;
     border-radius: 50px;
 }
 input::placeholder{
@@ -113,9 +90,65 @@ input::placeholder{
 }
 
 .input img{
-    height:40px;
-    width: 40px;
+    height:30px;
+    width: 30px;
     padding: 10px;
     background-color: #488690;
     border-radius: 50%;
+    outline: none;
+    border: none;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+@media (max-width: 848px) {
+    .logo img{
+    width: 22.62vw;
+    height: auto;
+    }
+    .welcome p{
+    font-size: 20.3619vw;
+    margin: 0px;
+}
+    .welcome{
+        line-height: 14.706vw;
+    }
+    .social img{
+        width: 5.09vw;
+    }
+    .info-content{
+        gap: 50.04vw;
+    }
+    .info-ai{
+        width: 35.23vw;
+    }
+}
+
+
+@media (max-width: 429px) {
+    .logo img{
+    width: 46.62vw;
+    height: auto;
+    }
+     .welcome p{
+    font-size: 25.9580vw;
+    margin: 0px;
+}
+    .welcome{
+        line-height: 25.303vw;
+    }
+    .social img{
+        width: 10.49vw;
+    }
+    .info-content{
+        gap: 40.04vw;
+        margin-top: 30px;
+    }
+    .info-ai{
+        width: 45.23vw;
+    }
+    .input{
+    margin-top: 50px;
+}
 }

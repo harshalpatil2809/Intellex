@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
     background-color: #1A2426;
@@ -33,8 +33,9 @@ body{
     opacity: 0.8;
 }
 .social img{
-    width: 40px;
+    width: 35px;
     height: auto;
+    border-radius: 50%;
 }
 .info-content{
     display: flex;
@@ -45,17 +46,19 @@ body{
 }
 
 .info-ai{
-    font-size: 40px;
+    font-size: 25px;
     width: 250px;
     height: auto;
     text-align: center;
-    
+    font-family: "Montserrat";
+    font-weight: 600;
 }
 
 .info-dev{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 
 .social{
@@ -66,7 +69,7 @@ body{
 .social-name{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 .flex{
     display: flex;
@@ -77,9 +80,42 @@ body{
     margin: 0px;
     text-decoration: none;
     color: #CAE0E4;
-    font-size: 40px;
 }
-.info-dev p{
-    font-size: 40px;
+.info-dev p,a{
+    font-size: 25px;
     margin: 0px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+    
+    height: auto;
+    width: auto;
+}
+
+input{
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    color: #CAE0E4;
+    width: 600px;
+    padding: 15px 30px 15px 30px;
+    border: 2px solid #437E87;
+    border-radius: 50px;
+}
+input::placeholder{
+    color: #CAE0E4;
+    font-family: "Montserrat" ;
+}
+
+.input img{
+    height:40px;
+    width: 40px;
+    padding: 10px;
+    background-color: #488690;
+    border-radius: 50%;
 }
